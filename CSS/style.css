@@ -1,0 +1,45 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    border: solid purple;
+    border-radius: 14px;
+    overflow: hidden;
+    height: 90vh;
+   
+}
+.image{
+  background-image:url("/images/image-header-mobile.jpg" );
+   height:35%;
+   background-size:cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   position: relative;
+}
+.filter{
+    position: absolute;
+    align-self: center;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(87, 0, 168, 0.388);
+}
+
+.content{
+    
+    display: flex;
+    flex-direction: column;
+    border: solid rgb(0, 119, 255); 
+    align-items: center;
+    
+}
+.content h1,p{
+    
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+}
+
+.attribution{
+    align-self: center;
+}
