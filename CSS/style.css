@@ -90,7 +90,7 @@ p{
         max-width: 500px;
     }
     .image{
-        background-image: url('/design/desktop-design.jpg');
+        background-image: url('/images/image-header-mobile.jpg');
         background-size: cover;     
         width: 40%;
         height: 100%;
